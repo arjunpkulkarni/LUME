@@ -5,8 +5,9 @@ import Header from '../src/components/Nav';
 import HeroSection from '../src/components/Hero';
 import WhySection from './components/WhyUs';
 import ServicesSection from './components/Services';
-import CTASection from '../src/components/CTA';
 import Footer from '../src/components/Footer';
+import PortfolioSection from './components/Portfolio';
+import ContactSection from './components/Contact';
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
         <HeroSection />
         <WhySection />
         <ServicesSection />
-        <CTASection />
+        <PortfolioSection />
+        <ContactSection />
       </main>
       <Footer />
     </div>
