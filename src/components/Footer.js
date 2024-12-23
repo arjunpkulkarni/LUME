@@ -3,8 +3,6 @@
 import React from 'react'
 
 export default function Footer() {
-  const aboutLinks = ['ABOUT', 'ABOUT', 'ABOUT', 'ABOUT', 'ABOUT', 'ABOUT', 'ABOUT']
-
   return (
     <footer className="bg-gradient-to-r from-blue-600 to-blue-900 text-white py-12">
       <div className="container mx-auto px-4">
@@ -16,19 +14,7 @@ export default function Footer() {
               2025 ALL RIGHTS RESERVED. LUMELABS, IS A MARKETING AND RESEARCH FIRM LOCATED IN NEW YORK.
             </p>
           </div>
-
-          {/* Right side - About Links */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-x-12 gap-y-4">
-            {aboutLinks.map((link, index) => (
-              <a
-                key={index}
-                href="#"
-                className="text-white hover:text-gray-200 underline underline-offset-4 transition-colors duration-300"
-              >
-                {link}
-              </a>
-            ))}
-          </div>
+          
         </div>
       </div>
     </footer>
